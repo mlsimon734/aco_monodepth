@@ -73,6 +73,8 @@ models: ty.StrDict = {
 
 
 datas: ty.StrDict = {
+    'acov2': 'acov2',
+    'acov2_lmdb': 'acov2_lmdb',
     'ddad': 'DDAD',
     'diode': 'Diode',
     'kitti_depth': 'kitti_depth_benchmark',

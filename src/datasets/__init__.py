@@ -1,6 +1,8 @@
 from .base import *
 from .base_mde import *
 
+from .acov2 import *
+from .acov2_lmdb import *
 from .ddad import *
 from .diode import *
 from .kitti_raw import *
@@ -16,6 +18,8 @@ from .syns_patches import *
 from .tum import *
 
 __all__ = (
+    acov2.__all__ +
+    acov2_lmdb.__all__ +
     base.__all__ +
     base_mde.__all__ +
     ddad.__all__ +
